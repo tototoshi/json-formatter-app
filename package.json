@@ -17,7 +17,7 @@
     "css-loader": "^5.2.6",
     "fork-ts-checker-webpack-plugin": "^6.2.12",
     "html-webpack-plugin": "^5.3.1",
-    "prettier": "^2.3.1",
+    "prettier": "^2.3.2",
     "react-refresh": "^0.10.0",
     "style-loader": "^2.0.0",
     "typescript": "^4.3.4",
