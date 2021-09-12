@@ -8,8 +8,12 @@ function formatJson(input: string): string {
 
   try {
     return JSON.stringify(JSON.parse(input), null, 2);
-  } catch (e) {
-    return e.toString();
+  } catch (e: unknown) {
+    if (e instanceof Error) {
+      return e.toString();
+    } else {
+      throw e;
+    }
   }
 }
 
